@@ -54,7 +54,6 @@ const Contact = () => {
                 className="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black resize-y"
                 id="message"
                 name="message"
-                rows="5"
                 placeholder="Drop Us Message"
                 required
               ></textarea>
