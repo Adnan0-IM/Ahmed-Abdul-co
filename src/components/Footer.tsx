@@ -39,9 +39,7 @@ const Footer = () => {
           {/* Footer Navigation Sections */}
           {footerSections.map((section) => (
             <div key={section.title} className="space-y-4 lg:col-span-2">
-              <h3 className="font-semibold text-lg ">
-                {section.title}
-              </h3>
+              <h3 className="font-semibold text-lg ">{section.title}</h3>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.label}>
@@ -58,25 +56,23 @@ const Footer = () => {
           ))}
 
           {/* Newsletter Subscription */}
-          <div className="lg:col-span-6 sm:col-span-2 md:col-span-3 bg-primary-dark bg-opacity-20 rounded-xl p-6 mt-8 lg:mt-0">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-              <div className="mb-4 md:mb-0 md:mr-8">
-                <h3 className="font-semibold text-xl  mb-2">
-                  Stay Updated
-                </h3>
-                <p className=" text-sm leading-relaxed max-w-md">
-                  Subscribe to our newsletter for the latest insights and
-                  updates from Ahmed Abdul & Co.
-                </p>
-              </div>
+          <div className="lg:col-span-6 sm:col-span-2 md:col-span-3 bg-primary-dark bg-opacity-20 rounded-xl p-4 gap-2 flex flex-col">
+            <div className="flex gap-2 flex-col">
+              <h3 className="font-semibold text-xl  ">Stay Updated</h3>
+              <p className=" text-sm leading-relaxed ">
+                Subscribe to our newsletter for the latest insights and updates
+                from Ahmed Abdul & Co.
+              </p>
+            </div>
 
-              <form className="w-full md:w-auto md:flex-1 p-4">
-                <div className="flex items-center bg-neutral-100 rounded-lg shadow-lg overflow-hidden relative lg:w-[300px]">
+            <form className="">
+              
+                <div className="flex items-center bg-neutral-100 rounded-lg shadow-lg overflow-hidden  md:relative">
                   <div className="flex-shrink-0 pl-4">
                     <img
                       src={bellIcon}
                       alt="Newsletter"
-                      className="w-5 h-5 object-contain opacity-60"
+                      className="w-5 h-5 object-contain opacity-70"
                     />
                   </div>
                   <input
@@ -85,26 +81,31 @@ const Footer = () => {
                     className="flex-1 px-3 py-3 text-neutral-900 bg-transparent border-0 focus:outline-none  "
                     required
                   />
-                  <button
-                    type="submit"
-                    className="absolute right-0  bg-primary-light shadow-md hover:scale-105 transition-all duration-200 hover:bg-primary-dark  text-white px-6 sm:px-4 py-3
-                            font-medium text-sm  h-full flex items-center justify-center"
-                  >
-                    Subscribe
-                  </button>
+                   <button
+                  type="submit"
+                  className="hidden md:absolute right-0 top-0 w-1/3 py-4    bg-primary-light shadow-md hover:scale-105 transition-all duration-200 hover:bg-primary-dark  text-white font-medium text-sm   md:flex items-center justify-center "
+                >
+                  Subscribe
+                </button>
                 </div>
-                <p className="text-xs  mt-2">
-                  By subscribing, you agree to our Terms and Privacy Policy.
-                </p>
-              </form>
-            </div>
+                <button
+                  type="submit"
+                  className="md:hidden w-full p-3 rounded-lg mt-2 bg-primary-light shadow-md hover:scale-105 transition-all duration-200 hover:bg-primary-dark  text-white font-medium text-sm   flex items-center justify-center "
+                >
+                  Subscribe
+                </button>
+           
+              <p className="text-xs  mt-2">
+                By subscribing, you agree to our Terms and Privacy Policy.
+              </p>
+            </form>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-dark mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-      <p className=" text-sm">
+            <p className=" text-sm">
               &copy; {new Date().getFullYear()} Ahmed Abdul & Co. All rights
               reserved.
             </p>

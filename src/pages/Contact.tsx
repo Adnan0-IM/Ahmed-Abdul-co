@@ -4,70 +4,72 @@ const Contact = () => {
       <h2 className="text-3xl text-center font-bold text-[navy] mb-4">
         CONTACT US
       </h2>
-      <div
-        id="contact"
-        className="w-5/6 max-w-[1000px] mx-auto text-[navy]   bg-cover rounded-lg shadow-inherit bg-center block  bg-transparent p-12 border-2 border-solid boder-[navy] backdrop-blur-[10px]"
-      >
-        <div className=" flex flex-col   w-full">
-          <h4 className="text-2xl text-[navy] mb-5 text-center font-bold">
-            Send Us a Message
-          </h4>
-          <form action="submit_form.php" method="post">
-            <div className="">
-              <label className=" sr-only" htmlFor="fullName"></label>
-              <input
-                className="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black"
-                type="text"
-                id="fullName"
-                name="fullName"
-                placeholder="Full Name"
-                required
-              />
+      <section className="backdrop-blur-md">
+        <div className="container mx-auto px-4 lg:px-8 lg:w-[70%] my-8 ">
+          <div className="border-2 rounded-lg ">
+            <div className=" flex flex-col pt-6  w-full">
+              <h4 className="text-2xl text-[navy]  text-center font-bold">
+                Send Us a Message
+              </h4>
             </div>
-            <div className="   flex flex-col sm:flex-row justify-between gap-1 my-1  text-[#555]">
-              <div className=" flex-1 ">
-                <label className="sr-only" htmlFor="email"></label>
+            <form className="p-8 flex flex-col gap-4" action="" method="post">
+              <div className="">
+                <label className=" sr-only" htmlFor="fullName"></label>
                 <input
-                  className="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
+                  className="w-full p-2 md:p-3 border border-solid border-[#0a5fde] rounded-md  text-black"
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  placeholder="Full Name"
                   required
                 />
               </div>
-              <div className=" flex-1 ">
-                <label className="sr-only" htmlFor="phone"></label>
-                <input
-                  className="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black"
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  placeholder="Phone Number"
+              <div className="   flex flex-col sm:flex-row justify-between gap-2  text-[#555]">
+                <div className=" flex-1 ">
+                  <label className="sr-only" htmlFor="email"></label>
+                  <input
+                    className="w-full p-2 md:p-3 border border-solid border-[#0a5fde] rounded-md  text-black"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div className=" flex-1 ">
+                  <label className="sr-only" htmlFor="phone"></label>
+                  <input
+                    className="w-full p-2 md:p-3 border border-solid border-[#0a5fde] rounded-md  text-black"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+              </div>
+              <div className="">
+                <label className=" sr-only" htmlFor="message"></label>
+                <textarea
+                  className="w-full p-2 md:p-3 border border-solid border-[#0a5fde] rounded-md  text-black resize-y"
+                  id="message"
+                  name="message"
+                  placeholder="Drop Us Message"
                   required
+                  rows={4}
+                ></textarea>
+              </div>
+              <div className=" flex items-center justify-center ">
+                <input
+                  className="bg-[#0a5fde] text-white p-3 w-full md:p-4  shadow-md hover:scale-105 transition-all duration-200  border-none rounded-md  hover:bg-[#0c92ff]"
+                  type="submit"
+                  value="Submit"
                 />
               </div>
-            </div>
-            <div className="">
-              <label className=" sr-only" htmlFor="message"></label>
-              <textarea
-                className="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black resize-y"
-                id="message"
-                name="message"
-                placeholder="Drop Us Message"
-                required
-              ></textarea>
-            </div>
-            <div className=" flex items-center justify-center ">
-              <input
-                className="bg-[#0a5fde] text-white py-3 px-8 w-full lg:w-1/6  shadow-md hover:scale-105 transition-all duration-200  border-none rounded-md mt-3 hover:bg-[#0c92ff]"
-                type="submit"
-                value="Submit"
-              />
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
-      </div>
+      </section>
       <section className=" text-[navy] ">
         <div className="container mx-auto px-4 lg:px-8 py-8 backdrop-blur-[5px] ">
           <h3 className="text-2xl text-center font-bold">

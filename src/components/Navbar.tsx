@@ -94,13 +94,13 @@ export default function Navbar() {
             <div className="md:hidden">
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
-                className="p-2 rounded-md text-neutral-50 hover:text-neutral-900 hover:bg-neutral-200 
+                className="p-1 rounded-md text-neutral-50 hover:text-neutral-900 hover:bg-neutral-200 
                          focus:outline-none focus:ring-2 focus:ring-primary transition-colors"
                 aria-expanded={mobileOpen}
                 aria-label="Toggle navigation menu"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="h-7 w-7"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

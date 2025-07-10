@@ -11,8 +11,8 @@ const About = () => {
         content={"ABOUT US"}
       />
       <section className="font-sm text-[16px] text-white bg-[#0a5fde]">
-        <div className="container lg:px-8 mx-auto px-4 py-8 grid sm:grid-cols-2 items-center ">
-          <img className="w-5/6 rounded-full" src={logo} alt="About Us" />
+        <div className="container lg:px-8 mx-auto px-4 py-8 grid sm:grid-cols-2 gap-4 items-center justify-center ">
+          <img className="w-5/6 mx-auto rounded-full" src={logo} alt="About Us" />
 
           <div className=" text-justify">
             <p>
@@ -108,7 +108,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-8 mt-8 items-center  text-xl ">
-            <div className="w-3/4 sm:w-[45%] bg-[url('/assets/handshake.jpg')] bg-cover bg-no-repeat font-bold text-white border-2 border-solid border-black rounded-xl h-[350px]">
+            <div className=" bg-[url('/assets/handshake.jpg')] bg-cover bg-no-repeat font-bold text-white border-2 border-solid border-black rounded-xl h-[350px]">
               <h3 className="bg-transparent p-7 text-center text-2xl">
                 Our Vision
               </h3>
@@ -119,7 +119,7 @@ const About = () => {
                 management and sustainability
               </p>
             </div>
-            <div className="w-3/4 sm:w-[45%] bg-[url('/assets/finance.jpg')] bg-cover bg-no-repeat font-bold text-white border-2 border-solid border-black rounded-xl h-[350px]">
+            <div className=" bg-[url('/assets/finance.jpg')] bg-cover bg-no-repeat font-bold text-white border-2 border-solid border-black rounded-xl h-[350px]">
               <h3 className="bg-transparent p-7 text-center text-2xl">
                 Our Mission
               </h3>

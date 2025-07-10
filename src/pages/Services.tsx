@@ -12,9 +12,9 @@ const Services = () => {
 
      
         <div className=" container lg:px-8 mx-auto px-4 pt-8">
-        <div className="bg-neutral-200 w-10/12 mx-auto rounded-3xl  shadow-md border text-center p-8 ">
+        <div className="bg-neutral-200 mx-auto rounded-3xl lg:mx-16   shadow-md border text-center p-8 ">
           <h2 className="text-3xl font-bold ">Our Approach</h2>
-          <p className="text-xl font-sans text-left">
+          <p className="text-lg mt-4 font-sans text-left">
             We engage in good client relation services based on thorough
             understanding of clients’ objectives through consultation, studies,
             discussions, dialogue and brainstorming with our clients and their
@@ -28,7 +28,7 @@ const Services = () => {
       <section className="bg-neutral-50 text-[#052659]">
         <div className="text-center container lg:px-8 py-8 mx-auto px-4">
           <h2 className="text-4xl">OUR SERVICES</h2>
-          <p className="text-xl font-sans text-left">
+          <p className="text-lg mt-4 font-sans text-left">
             Regulatory requirements coupled with increased stakeholder demands
             for greater transparency are putting more pressure on organizations.
             As a result, the issue of audit and assurance is high on the agenda
@@ -44,7 +44,7 @@ const Services = () => {
 
       <section className=" bg-[#052659]">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-content-center justify-center gap-8 p-8 container lg:px-8 mx-auto px-4  ">
-          <div className="bg-neutral-200 backdrop-blur-[1px] shadow-md p-8 max-w-[400px] rounded-lg ">
+          <div className="bg-neutral-200 backdrop-blur-[1px] mx-auto shadow-md p-8 rounded-lg ">
           <h3 className="text-[#0f2743] text-2xl  text-center">
             Audit and Assurance
           </h3>
@@ -64,7 +64,7 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="bg-neutral-200 backdrop-blur-[1px] shadow-md p-8 max-w-[400px] rounded-lg">
+        <div className="bg-neutral-200 backdrop-blur-[1px] mx-auto shadow-md p-8 rounded-lg">
           <h3 className="text-[#0f2743] text-2xl  text-center">
             Tax Consultancy
           </h3>
@@ -82,7 +82,7 @@ const Services = () => {
             <li>VAT Management</li>
           </ul>
         </div>
-           <div className="bg-neutral-200 backdrop-blur-[1px] shadow-md p-8 max-w-[400px] rounded-lg ">
+           <div className="bg-neutral-200 backdrop-blur-[1px] mx-auto shadow-md p-8 rounded-lg ">
           <h3 className=" text-[#0f2743] text-2xl  text-center">
             Information Technology (IT)
           </h3>
@@ -105,7 +105,7 @@ const Services = () => {
             on our professionalism and experience.
           </p>
         </div>
-        <div className="bg-neutral-200 backdrop-blur-[1px] shadow-md p-8 max-w-[400px] rounded-lg ">
+        <div className="bg-neutral-200 backdrop-blur-[1px] mx-auto shadow-md p-8 rounded-lg ">
           <h3 className=" text-[#0f2743] text-2xl  text-center">
             Forensic Accounting
           </h3>
@@ -140,7 +140,7 @@ const Services = () => {
           </ul>
         </div>
 
-        <div className="bg-neutral-200 backdrop-blur-[1px] shadow-md p-8 max-w-[400px] rounded-lg ">
+        <div className="bg-neutral-200 backdrop-blur-[1px] mx-auto shadow-md p-8 rounded-lg ">
           <h3 className=" text-[#0f2743] text-2xl  text-center">
             Financial Consultancy
           </h3>
