@@ -4,11 +4,13 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
+import RouteToTop from "./components/RouteToTop";
 
 
 function App() {
   return (
-
+    <>
+      <RouteToTop />
           <Router>
             <Routes>
               <Route path="/" element={<Layout />}>
@@ -20,6 +22,8 @@ function App() {
             
             </Routes>
           </Router>
+
+          </>
     
   );
 }
