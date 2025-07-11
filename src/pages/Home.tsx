@@ -19,10 +19,10 @@ const Home = () => {
       <section className="   text-[#eaf0f7] text-center bg-white ">
         <div className="container lg:px-8 mx-auto px-4 flex py-8 flex-col sm:flex-row justify-between items-center gap-5">
           <div>
-            <h1 className="text-[navy] text-4xl font-bold">
+            <h1 className="text-[navy] text-3xl md:text-4xl font-bold">
               Professional Services You Can Trust
             </h1>
-            <p className="text-[navy] text-xl mt-8">
+            <p className="text-[navy] text-lg md:text-xl mt-8">
               At Ahmed Abdul & Co, we offer a wide range of professional
               services that are tailored to meet your business needs.
               <br /> With our expertise and commitment to excellence, we strive
@@ -55,7 +55,7 @@ const Home = () => {
       <section className="   bg-[#0a5fde]   ">
         <div className="container lg:px-8 mx-auto py-8 px-4 text-white text-center flex flex-col max-lg:flex-col min-lg:flex-row  gap-4 p-4 justify-center items-center">
           <div className="max-w-3/6">
-            <h1 id="privacy" className="text-4xl text-[#1e2b40] font-bold ">
+            <h1 id="privacy" className="text-3xl md:text-4xl text-[#1e2b40] font-bold ">
               Protecting Your Privacy and Confidentiality
             </h1>
             <h4 className="font-bold mt-4 max-w-5xl">
