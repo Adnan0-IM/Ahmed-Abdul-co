@@ -19,7 +19,7 @@ const Home = () => {
       <section className="   text-[#eaf0f7] text-center bg-white ">
         <div className="container lg:px-8 mx-auto px-4 flex py-8 flex-col sm:flex-row justify-between items-center gap-5">
           <div>
-            <h1 className="text-[navy] text-3xl md:text-4xl font-bold">
+            <h1 className="text-[navy] text-3xl px-4 sm:px-0 md:text-4xl font-bold">
               Professional Services You Can Trust
             </h1>
             <p className="text-[navy] text-lg md:text-xl mt-8">
