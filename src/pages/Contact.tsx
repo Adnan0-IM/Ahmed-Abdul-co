@@ -1,3 +1,5 @@
+import { Mails, Phone, MapPin } from "lucide-react";
+
 const Contact = () => {
   return (
     <section className="bg-[url(assets/Ahmad.svg)] bg-cover bg-white py-8">
@@ -76,7 +78,8 @@ const Contact = () => {
             Ahmed Abdul & Co. (Chartered Accountants){" "}
           </h3>
           <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-lg leading-none  mt-4 ">
-            <div className="bg-[#0a5fde] bg-[url(/assets/mail.png)] bg-contain border border-solid border-black bg-no-repeat bg-center backdrop-blur-[10px]  font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+            <div className="bg-[#0a5fde] border border-solid border-black backdrop-blur-[10px] font-sans font-bold text-white shadow-inset-dark mb-2 p-2 text-center relative">
+              <Mails className="absolute opacity-50 size-32 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
               <h4 className=" text-lg text-white">E-MAIL</h4>
               <p className="text-sm mb-2 p-2">
                 <a
@@ -95,7 +98,8 @@ const Contact = () => {
                 </a>
               </p>
             </div>
-            <div className="bg-[#0a5fde] bg-[url(/assets/telephone.png)] bg-contain border border-solid border-white bg-no-repeat bg-center backdrop-blur-[10px]  font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+            <div className="bg-[#0a5fde] border border-solid border-white backdrop-blur-[10px] font-sans font-bold text-white shadow-inset-dark mb-2 p-2 text-center relative">
+              <Phone className="absolute opacity-50 size-32 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
               <h4 className=" text-lg text-white">TEL NO:</h4>
               <p className="text-sm mb-2 p-2">08060291557</p>
               <p className="text-sm mb-2 p-2">08025506963</p>
@@ -103,7 +107,8 @@ const Contact = () => {
               <p className="text-sm mb-2 p-2">08028909191</p>
               <p className="text-sm mb-2 p-2">08030527135</p>
             </div>
-            <div className="bg-[#0a5fde] bg-[url(/assets/gps.png)] bg-contain border border-solid border-orange bg-no-repeat bg-center backdrop-blur-[10px]  font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+            <div className="bg-[#0a5fde] border border-solid border-orange backdrop-blur-[10px] font-sans font-bold text-white shadow-inset-dark mb-2 p-2 text-center relative">
+              <MapPin className="absolute opacity-50 size-32 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
               <h4 className=" text-lg text-white">OFFICES:</h4>
               <p className="text-sm mb-2 p-2">
                 Suite No.165 SKY Memorial Complex Opp. Unity Bank Jaiz Bank, Zoo
